@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class="pull-left visible-md visible-lg">
+              <div id="logo-img" alt="Logo image"></div>
+            </a>
+            <div class="navbar-brand">
+              <a href="index.html"><h1>Chu's China Bistro</h1></a>
+                <p>
+                  <span class="glyphicon glyphicon-star-empty">Koscher Certified</span></p>
+            </div>
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+    
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="visible-xs active">
+                <a href="index.html">
+                  <span class="glyphicon glyphicon-home"></span>Home</a>
+              </li>
+              <li>
+                <a href="menu-categories.html">
+                  <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu</a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About</a>
+              </li>
+              <li>
+                <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Awards</a>
+              </li>
+              <li id="phone" class="hidden-xs">
+                <a href="tel:100-101-1003">
+                  <span>100-101-1003</span></a><div>*We deliver</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="call-btn" class="visible-xs">
+      <a class="btn" href="tel:100-101-1003">
+        <span class="glyphicon glyphicon-phone-alt"></span>
+        100-101-1003
+      </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">*We deliver</div>
+ 
+    <div id="main-content" class="container">
+      <div class="jumbotron">
+        <img src="images/hotel3.jpg" alt="Restaurant picture" class="img-responsive visible-xs">
+      </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+          <a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+         <a href="single-category.html"><div id="specials-tile"><span>Specials</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+         <a href="https://goo.gl/maps/v8e1BNr9LXyEBgm2A" target="_blank"><div id="map-tile">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2982.5793717388647!2d-87.52798218458925!3d41.62160667924329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8811df7174be42ff%3A0x878582df2a307152!2sChu&#39;s%20China%20Bistro!5e0!3m2!1sen!2sin!4v1596802114423!5m2!1sen!2sin" width="100%" height="250px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <span>Map</span>
+      </div></a>
+      </div>
+      <div id="js">
+      <div>Enter your name: &nbsp; &nbsp; &nbsp; &nbsp;
+      <input type="text" id="name"></div><div></div>
+      <div>Enter your address: &nbsp; &nbsp;
+      <input type="text" id="name"></div><div></div>
+      <div>Enter your phone no: &nbsp;
+      <input type="text" id="name"></div><div></div>
+      <button id="btn1" onclick="logIn();">Log in</button></div>
+      <div id="content1"></div>
+    </div>
+  </div>
+
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          1 State St B, Calumet City<br> IL 60409, United States
+          <p>* Delivery within 3-4 miles</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"This is the best Chinese restaurant in town hands down!!!!"</p>
+          <p>"This restaurant is obviously one of the most attractive place to eat in the region."</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; 2020 <sup>Kydia</sup> Copyright Chu's China Bistro</div>
+    </div>
+  </footer>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/details.js"></script>
+
+  </body>
+</html>
