@@ -1,0 +1,2 @@
+jonasName.hello();
+maarthaName.hi();
